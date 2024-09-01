@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    background-color: #0F315C;
+    font-family: "sora";
+}
+h1{
+    color: #4CC8FF;
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 0 0;
+}
+.seta-1{
+    position: absolute;
+    top: 132px;
+    left: 650px;
+
+}
+.seta-2{
+    position: absolute;
+    top: 350px;
+    right: 600px;
+
+}
+.seta{
+    font-size: 15px;
+    color: #ffffff;
+    border: solid #000000 1px;
+    background-color: #19B100;
+    padding: 2px;
+    position: absolute;
+    right: 500px;
+    top: 380px;
+}
+small{
+    font-size: 15px;
+    border: solid #000000 2px;
+    background-color: #FDB32F;
+    position: absolute;
+    top: 120px;
+    left: 590px;
+
+}
+.sessao-1 p{
+    color: #ffffff;
+    text-align: center;
+}
+button{
+    border: solid 1px white;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #0F315C;
+    margin: 30px;
+    
+   
+}
