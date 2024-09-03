@@ -1,27 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-body{
+
+body {
     background-color: #0F315C;
     font-family: "sora";
+    margin-left: auto;
+    margin-right: auto;
 }
-h1{
+
+.logo {
+    margin-left: 70px;
+}
+
+h1 {
     color: #4CC8FF;
     text-align: center;
     font-size: 40px;
     margin: 100px 0 0;
 }
-.seta-1{
+
+.seta-1 {
     position: absolute;
     top: 132px;
     left: 650px;
-
 }
-.seta-2{
+
+.seta-2 {
     position: absolute;
     top: 350px;
     right: 600px;
-
 }
-.seta{
+
+.seta {
     font-size: 15px;
     color: #ffffff;
     border: solid #000000 1px;
@@ -31,27 +40,93 @@ h1{
     right: 500px;
     top: 380px;
 }
-small{
+
+small {
     font-size: 15px;
     border: solid #000000 2px;
     background-color: #FDB32F;
     position: absolute;
     top: 120px;
     left: 590px;
-
 }
-.sessao-1 p{
+
+.sessao-1 p {
     color: #ffffff;
     text-align: center;
 }
-button{
+
+button {
     border: solid 1px white;
     border-radius: 30px;
     width: 100px;
     height: 40px;
     color: #ffffff;
     background-color: #0F315C;
-    margin: 30px;
-    
-   
+    margin: 30px;  
 }
+
+section .plug {
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+    margin-top: -30px;
+    
+    
+    background-image: url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector.png), url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+}
+  
+section hr {
+    margin-top: 23px;
+    border: 2px solid white;
+}
+
+footer {
+    border-top: 3px solid #FDB32F;
+    margin-top: 100px;
+    background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+}
+
+footer .mensagem {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+footer p, div{
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+span {
+    color: #FDB32F;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.midias {
+    color: white;
+}
+.midias img {
+    padding: 5px;
+}
+
+.email, .endereco div {
+    margin-top: 10px;
+}
+
+.linha-2 {
+    color: 1px solid #ffffff;
+}
+
+.logo2 {
+    border-top: 1px solid;
+    margin: 10px;
+    margin-top: 30px;
+}
+
