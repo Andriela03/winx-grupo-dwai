@@ -3,6 +3,8 @@
 body {
     background-color: #0F315C;
     font-family: "sora";
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -88,10 +90,15 @@ footer {
     background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
 }
 
-footer p {
+footer .mensagem {
     color: #ffffff;
     margin-left: 100px;
     margin-top: 50px;
+}
+
+footer p, div{
+    color: #ffffff;
+    margin-left: 50px;
 }
 
 span {
@@ -102,7 +109,20 @@ footer div {
     display: inline-block;
 }
 
-.midias img {
+.midias {
     color: white;
-    margin-left: 10px;
+}
+
+.email, .endereco div {
+    margin-top: 10px;
+}
+
+.linha-2 {
+    color: 1px solid #ffffff;
+}
+
+.logo2 {
+    border-top: 1px solid;
+    margin: ;
+    margin-top: 30px;
 }
