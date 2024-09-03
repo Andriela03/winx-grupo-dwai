@@ -112,6 +112,7 @@ footer div {
 .midias {
     color: white;
 }
+
 .midias img {
     padding: 5px;
 }
@@ -130,9 +131,23 @@ footer div {
     margin-top: 30px;
 }
 
-=======
 .midias img {
     color: white;
     margin-left: 10px;
+    color: white;
+}
+
+.email, .endereco div {
+    margin-top: 10px;
+}
+
+.linha-2 {
+    color: 1px solid #ffffff;
+}
+
+.logo2 {
+    border-top: 1px solid;
+    margin: 10px;
+    margin-top: 30px;
 }
 
