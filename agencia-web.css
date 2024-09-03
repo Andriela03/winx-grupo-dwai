@@ -3,8 +3,7 @@
 body {
     background-color: #0F315C;
     font-family: "sora";
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 }
 
 .logo {
@@ -20,7 +19,7 @@ h1 {
 
 .seta-1 {
     position: absolute;
-    top: 132px;
+    top: 132px; 
     left: 650px;
 }
 
@@ -109,45 +108,22 @@ footer div {
     display: inline-block;
 }
 
-.midias {
-    color: white;
+.email {
+
 }
 
 .midias img {
     padding: 5px;
 }
 
-.email, .endereco div {
-    margin-top: 10px;
-}
-
-.linha-2 {
-    color: 1px solid #ffffff;
-}
-
 .logo2 {
-    border-top: 1px solid;
+    border-top: 1px solid #4CC8FF;
     margin: 10px;
     margin-top: 30px;
 }
 
-.midias img {
-    color: white;
-    margin-left: 10px;
-    color: white;
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.email, .endereco div {
-    margin-top: 10px;
-}
-
-.linha-2 {
-    color: 1px solid #ffffff;
-}
-
-.logo2 {
-    border-top: 1px solid;
-    margin: 10px;
-    margin-top: 30px;
-}
-
