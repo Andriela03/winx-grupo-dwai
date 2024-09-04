@@ -57,6 +57,7 @@ small {
 button {
     border: solid 1px white;
     border-radius: 30px;
+    display: inline-block;
     width: 100px;
     height: 40px;
     color: #ffffff;
@@ -86,6 +87,7 @@ section hr {
 footer {
     border-top: 3px solid #FDB32F;
     margin-top: 100px;
+    min-height: 320px;
     background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
 }
 
@@ -114,8 +116,8 @@ footer div {
 
 .logo2 {
     border-top: 1px solid #4CC8FF;
-    margin: 10px;
     margin-top: 30px;
+    min-width: 1200px;
 }
 
 .container {
