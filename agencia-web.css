@@ -5,48 +5,47 @@ body {
     font-family: "sora";
     margin: 0;
 }
-
-.logo {
-    margin-left: 70px;
+main{
+    text-align: center;
 }
-
 h1 {
     color: #4CC8FF;
-    text-align: center;
     font-size: 40px;
     margin: 100px 0 0;
 }
 
 .seta-1 {
     position: absolute;
-    top: 132px; 
+    top: 160px; 
     left: 650px;
 }
 
 .seta-2 {
     position: absolute;
-    top: 350px;
+    top: 380px;
     right: 600px;
 }
 
-.seta {
-    font-size: 15px;
+.square-2 {
+    font-size: 11px;
     color: #ffffff;
     border: solid #000000 1px;
     background-color: #19B100;
-    padding: 2px;
+    padding: 4px;
     position: absolute;
-    right: 500px;
-    top: 380px;
+    right: 530px;
+    top: 410px;
 }
 
-small {
-    font-size: 15px;
+.square-1 {
+    font-size: 11px;
     border: solid #000000 2px;
     background-color: #FDB32F;
     position: absolute;
-    top: 120px;
+    top: 140px;
     left: 590px;
+    padding:4px;
+    font-weight: bold;
 }
 
 .sessao-1 p {
@@ -57,12 +56,12 @@ small {
 button {
     border: solid 1px white;
     border-radius: 30px;
-    display: inline-block;
     width: 100px;
     height: 40px;
     color: #ffffff;
     background-color: #0F315C;
-    margin: 30px;  
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 section .plug {
@@ -78,10 +77,18 @@ section .plug {
     background-repeat: no-repeat, no-repeat;
     background-position: center left, center right;
 }
-  
+
 section hr {
     margin-top: 23px;
     border: 2px solid white;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+
 }
 
 footer {
@@ -89,39 +96,35 @@ footer {
     margin-top: 100px;
     min-height: 320px;
     background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
-}
-
-footer .mensagem {
     color: #ffffff;
-    margin-left: 100px;
-    margin-top: 50px;
 }
-
-footer p, div{
-    color: #ffffff;
-    margin-left: 50px;
-}
-
 span {
     color: #FDB32F;
 }
 
+.mensagem { 
+    margin-top: 40px;
+}
+
 footer div {
-    display: inline-block;
+    float: left;
+}
+
+footer .midias, .endereco{
+    margin-left: 200px;
+}
+
+.contacto{
+    margin-top: 20px;
 }
 
 .midias img {
     padding: 5px;
 }
-
-.logo2 {
+.logo-2 {
     border-top: 1px solid #4CC8FF;
     margin-top: 30px;
-    min-width: 1200px;
+    width: 100%;
 }
 
-.container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
