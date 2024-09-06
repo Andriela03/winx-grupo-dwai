@@ -120,11 +120,17 @@ footer .midias, .endereco{
 
 .midias img {
     padding: 5px;
-}
+} 
+
 .logo-2 {
     border-top: 1px solid #4CC8FF;
     margin-top: 30px;
     width: 100%;
+    text-align: center;
+}
+
+.logo-2 img { 
+    margin-top: 25px;
 }
 
 
