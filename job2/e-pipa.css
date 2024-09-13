@@ -3,9 +3,13 @@ body {
     margin: auto;
 }
 
+main {
+    text-align: center;
+}
+
 i {
     color: #FFC82C;
-    margin: 5px ;
+    margin: 5px;
 }
 
 .midias {
