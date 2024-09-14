@@ -25,7 +25,7 @@ i {
     text-align: right;
     padding: 10px;
     padding-right: 115px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .logo-1 {
@@ -55,7 +55,7 @@ nav {
 nav .ativo {
     border-bottom: 4px solid #FFC82C;
     font-weight: bold;
-    padding-bottom: 25px;
+    padding-bottom: 26px;
 }
 
 h1 {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .azul {
-    color:#203C86;  
+    color:#2648A1;  
     font-size: 20px;
     font-style: italic;
     margin: 0;
@@ -98,7 +98,7 @@ figure {
 
 .conteudo .sub-titulo{
     font-size: 14px;
-    color: #203C86;
+    color: #2648A1;
     margin-top: 60px;
 }
 
@@ -106,5 +106,35 @@ figure {
     margin: 0;
     font-size: 25px;
 }
+
+span { 
+    display: inline-block;
+    width: 95px;
+    height: 6px;
+    background-color: #FFC82C;
+}
+
+.paragrafo-2 {
+    max-width: 440px;
+}
+
+.conteudo-imagem {
+    border: solid 1px #2648A1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px;
+    
+    position: relative;
+    left: 500px;
+    bottom: 310px;
+
+}
+
+.conteudo-imagem h3, small {
+    margin-left: 50px;
+}
+
+
+
 
     
