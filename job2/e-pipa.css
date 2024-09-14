@@ -58,11 +58,15 @@ h1 {
     margin-top: 100px;
 }
 
-.comentario {
-    
+.azul {
+    float: right;
+    font-style: italic;
+    position: relative;   
 }
 
-
+.logo-2 img {
+    width: 210px;
+}
 
 
 
