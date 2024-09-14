@@ -53,14 +53,18 @@ nav .ativo {
 }
 
 h1 {
+    font-weight: 600;
     padding-right: 194px;
     position: relative;
+    margin-bottom: 25px;
     margin-top: 100px;
 }
 
 .azul {
+    float: right;
     font-style: italic;
-    position: relative; 
+    margin-bottom: 2px;
+    position: relative;   
     color:#203C86;  
 }
 
@@ -72,12 +76,15 @@ h1 {
 
 .comentario div {
     text-align: right;
-    font-size: 14px;
 }
+
 .logo-2 img {
+    margin-bottom: 20px;
+    padding-right: 700px;
+    position: relative;
     width: 210px;
 }
 
-
-
-
+.text p, .bloco3, .bloco4 {
+    line-height: 30px;
+}
