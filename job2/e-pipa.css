@@ -163,17 +163,15 @@ span {
     color: #2648A1; 
 }
 
+.imagens-praias {
+    display: inline-block;
+    margin: 0;
+    
+}
+
 .praias h2 {
     color: #2648A1;
     margin-top: 0;
-}
-
-.imagens-praias {
-    margin-left: 200px;
-}
-
-.imagens-praias figure {
-    display: inline-block;
 }
 
 .praias .cinza {
