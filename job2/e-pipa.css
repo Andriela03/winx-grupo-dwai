@@ -25,7 +25,7 @@ i {
     text-align: right;
     padding: 10px;
     padding-right: 115px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .logo-1 {
@@ -43,7 +43,7 @@ div nav a {
     text-decoration: none;
     color: #ffffff;
     padding: 20px;
-    font-size: 20px;
+    font-size: 16px;
 } 
 
 nav {
@@ -55,7 +55,7 @@ nav {
 nav .ativo {
     border-bottom: 4px solid #FFC82C;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -68,11 +68,12 @@ h1 {
 .azul {
     color:#203C86;  
     font-size: 20px;
+    font-style: italic;
+    margin: 0;
 }
 
 .comentario {
     float: right;
-    font-style: italic;
 }
 
 .comentario div {
@@ -95,6 +96,15 @@ figure {
     line-height: 30px;
 }
 
-.conteudo h2 {
-    margin: 0;
+.conteudo .sub-titulo{
+    font-size: 14px;
+    color: #203C86;
+    margin-top: 60px;
 }
+
+.conteudo .sub-titulo h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+    
