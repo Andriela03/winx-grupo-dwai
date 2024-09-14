@@ -60,11 +60,18 @@ h1 {
 }
 
 .azul {
-    float: right;
     font-style: italic;
-    position: relative;   
+    position: relative; 
+    color:#203C86;  
 }
 
+.comentario {
+    float: right;
+}
+
+.comentario div {
+    text-align: right;
+}
 .logo-2 img {
     width: 210px;
 }
