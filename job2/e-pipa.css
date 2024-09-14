@@ -53,6 +53,7 @@ nav .ativo {
 }
 
 h1 {
+    font-weight: 600;
     padding-right: 194px;
     position: relative;
     margin-top: 100px;
