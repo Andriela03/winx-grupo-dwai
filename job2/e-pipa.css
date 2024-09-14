@@ -3,11 +3,8 @@ body {
     margin: 0;
 }
 
-main {
-    text-align: left;
-    max-width: 750px;
-    margin: auto;
-    font-size: 20px;
+header {
+    width: auto;
 }
 
 i {
@@ -24,8 +21,9 @@ i {
 .redes-sociais {
     text-align: right;
     padding: 10px;
-    padding-right: 115px;
+    padding-right: 170px;
     font-size: 11px;
+    font-weight: 100;
 }
 
 .logo-1 {
@@ -36,7 +34,7 @@ i {
 
 .logo-1 img {
     padding-top: 15px;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 
 div nav a {
@@ -49,13 +47,21 @@ div nav a {
 nav {
     float: right;
     margin-top: 30px;
-    padding-right: 100px;
+    padding-right: 155px;
 }
 
 nav .ativo {
     border-bottom: 4px solid #FFC82C;
     font-weight: bold;
-    padding-bottom: 26px;
+    padding-bottom: 28px;
+}
+
+main {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+    margin-right: auto;
+    font-size: 20px;
 }
 
 h1 {
@@ -118,22 +124,71 @@ span {
     max-width: 440px;
 }
 
+.conteudo div .conteudo-imagem {
+    height: 300px;
+}
+
 .conteudo-imagem {
-    border: solid 1px #2648A1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     width: 400px;
     
     position: relative;
     left: 500px;
     bottom: 310px;
-
 }
 
-.conteudo-imagem h3, small {
-    margin-left: 50px;
+.conteudo-imagem img {
+    margin-bottom: 0;
 }
 
+.conteudo-imagem div {
+    border: solid 1px #2648A1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 75px;
+    height: 65px;
+}
+
+.pdp {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.conteudo-imagem div small {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.conteudo-imagem .pdp, small {
+    margin-left: 20px;
+    color: #2648A1; 
+}
+
+.praias h2 {
+    color: #2648A1;
+    margin-top: 0;
+}
+
+.imagens-praias {
+    margin-left: 200px;
+}
+
+.imagens-praias figure {
+    display: inline-block;
+}
+
+.praias .cinza {
+    margin-top: 0;
+}
+
+footer {
+    background: linear-gradient(130deg, #0D3F82 2.84%, #001736 73.02%);
+    margin-top: 70px;
+}
+
+footer i {
+    color: #ffffff;
+    float: left;
+}
 
 
 
