@@ -6,7 +6,6 @@ main {
     text-align: left;
     max-width: 620px;
     margin: auto;
-
 }
 
 i {
@@ -24,15 +23,17 @@ i {
     text-align: right;
     padding: 10px;
     padding-right: 115px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .logo-1 {
     border-top: #ffffff solid 1px; 
+    padding-left: 100px;
+    padding-bottom: 10px;
 }
 
 .logo-1 img {
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 150px;
 }
 
@@ -40,16 +41,19 @@ div nav a {
     text-decoration: none;
     color: #ffffff;
     padding: 20px;
+    font-size: 20px;
 } 
 
 nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
     padding-right: 100px;
 }
 
 nav .ativo {
-    border-bottom: 3px solid #FFC82C;
+    border-bottom: 4px solid #FFC82C;
+    font-weight: bold;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -66,22 +70,25 @@ h1 {
     margin-bottom: 2px;
     position: relative;   
     color:#203C86;  
+    font-size: 20px;
 }
 
 .comentario {
     float: right;
-    font-size: 20px;
-    margin
 }
 
 .comentario div {
     text-align: right;
+    font-size: small;
+    color: #b4b4b4;
 }
 
+figure {
+    margin: 0;
+}
 .logo-2 img {
     margin-bottom: 20px;
     padding-right: 700px;
-    position: relative;
     width: 210px;
 }
 
