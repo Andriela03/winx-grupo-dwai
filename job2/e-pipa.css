@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    text-align: center;
+    text-align: left;
     max-width: 600px;
     padding-left: 420px;
 }
@@ -56,6 +56,10 @@ h1 {
     padding-right: 194px;
     position: relative;
     margin-top: 100px;
+}
+
+.comentario {
+    
 }
 
 
