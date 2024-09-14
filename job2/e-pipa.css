@@ -168,11 +168,11 @@ span {
     margin-top: 0;
 }
 
-.imagens-praias {
+.imagens-praias figure, h3, small {
     margin-left: 200px;
 }
 
-.imagens-praias figure {
+.imagens-praias figure img {
     display: inline-block;
 }
 
@@ -185,8 +185,17 @@ footer {
     margin-top: 70px;
 }
 
-footer i {
+footer .footer {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+    margin-right: auto;
+}
+
+footer .footer i {
     color: #ffffff;
     float: left;
 }
+
+
     
