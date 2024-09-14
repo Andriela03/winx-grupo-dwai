@@ -5,6 +5,8 @@ body {
 
 main {
     text-align: center;
+    max-width: 600px;
+    padding-left: 420px;
 }
 
 i {
@@ -21,6 +23,7 @@ i {
 .redes-sociais {
     text-align: right;
     padding: 10px;
+    padding-right: 115px;
     font-size: 12px;
 }
 
@@ -29,7 +32,8 @@ i {
 }
 
 .logo-1 img {
-    padding: 30px;
+    padding-top: 10px;
+    margin-left: 150px;
 }
 
 div nav a {
@@ -38,6 +42,21 @@ div nav a {
     padding: 20px;
 } 
 
+nav {
+    float: right;
+    margin-top: 25px;
+    padding-right: 100px;
+}
+
+nav .ativo {
+    border-bottom: 3px solid #FFC82C;
+}
+
+h1 {
+    padding-right: 194px;
+    position: relative;
+    margin-top: 100px;
+}
 
 
 
