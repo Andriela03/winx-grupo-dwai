@@ -57,10 +57,8 @@ nav .ativo {
 }
 
 main {
-    text-align: left;
     max-width: 750px;
     margin: auto;
-    margin-right: 670px;
     font-size: 20px;
 }
 
@@ -130,14 +128,9 @@ span {
 
 .conteudo-imagem {
     width: 400px;
-    
     position: relative;
     left: 500px;
     bottom: 310px;
-}
-
-.conteudo-imagem img {
-    margin-bottom: 0;
 }
 
 .conteudo-imagem div {
@@ -146,16 +139,17 @@ span {
     border-bottom-right-radius: 10px;
     margin-left: 75px;
     height: 65px;
+
+    position: relative;
+    bottom:5px  
 }
 
 .pdp {
-    margin-bottom: 0;
-    margin-top: 8px;
+    margin: 8px 0 0 0;
 }
 
 .conteudo-imagem div small {
-    font-size: 15px;
-    padding-bottom: 5px;
+    font-size: 18px;  
 }
 
 .conteudo-imagem .pdp, small {
@@ -163,80 +157,73 @@ span {
     color: #2648A1; 
 }
 
-<<<<<<< HEAD
-.imagens-praias {
-    display: inline-block;
-    margin: 0;
-    
-=======
 main h2 {
     color: #2648A1;
     margin-top: 0;
 }
 
 .praias {
-    padding-left: 150px;
+    text-align: center;
 }
 
 .praias div {
     display: inline-block;
->>>>>>> mirellinha
-}
-
-.praias h2 {
-    color: #2648A1;
-    margin-top: 0;
-}
-
-.praias figure, h3, small {
-    margin-left: 200px;
 }
 
 .praias .cinza {
     margin-top: 0;
+    color: #5d5d5d;
+}
+
+.praias h3 {
+    margin: 0 160px 0 0;
+}
+.praias div small {
+    margin: 0 170px 0 0;
 }
 
 footer {
     background: linear-gradient(130deg, #0D3F82 2.84%, #001736 73.02%);
     margin-top: 70px;
+    
 }
-
-footer .footer {
+footer i {
     color: #ffffff;
-    text-align: left;
-    margin: auto;
-    padding-top: 50px;
+    
+}
+footer .bloco1 {
+    color: #ffffff;
     max-width: 950px;
+    margin-left: 400px;
 }
 
-.footer .bloco1 img {
-    margin-bottom: 50px;
-    margin-left: -15px;
+footer img {
+    padding: 60px;
+}
+ footer div  {
+    display: inline;
+ }
+ .blocos-1 {
+    display: block;
+    max-width: 300px;
+    margin-bottom: 40px;
+ }
+
+ .blocos-2{
+    display: block;
+    margin-bottom: 40px;
+ }
+
+.blocos-3 {
+    display: block;
+    max-width: 300px;
+    margin-bottom: 40px;
 }
 
-.footer i {
-    color: #ffffff;
-    float: left;
+.icons img {
+    padding: 20px;
 }
+  
 
-.footer .bloco1 div {
-    margin-bottom: 35px;
-    font-size: 20px;
-}
 
-.footer .bloco2 {
-    float: right;
-    padding-top: 20px;
-}
 
-.footer .bloco3 {
-    float: right;
-}
-
-.footer .bloco4 {
-    float: right;
-}
-
-.footer .bloco2 {
-    float: right;
-}
