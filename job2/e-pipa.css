@@ -183,47 +183,49 @@ main h2 {
 }
 
 footer {
-    background: linear-gradient(130deg, #0D3F82 2.84%, #001736 73.02%);
-    margin-top: 70px;
-    
-}
-footer i {
+    margin-top: 40px;
+    background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
+    display: table;
+    width: 100%;
     color: #ffffff;
-    
-}
-footer .bloco1 {
-    color: #ffffff;
-    max-width: 950px;
-    margin-left: 400px;
 }
 
 footer img {
-    padding: 60px;
+    margin: 50px 0 70px 150px;
 }
- footer div  {
-    display: inline;
- }
- .blocos-1 {
-    display: block;
-    max-width: 300px;
-    margin-bottom: 40px;
- }
-
- .blocos-2{
-    display: block;
-    margin-bottom: 40px;
- }
-
-.blocos-3 {
-    display: block;
-    max-width: 300px;
-    margin-bottom: 40px;
+footer i {
+    color: #ffffff;
 }
 
-.icons img {
-    padding: 20px;
+footer .blocos-1, 
+footer .blocos-2, 
+footer .blocos-3{
+    width: 300px;
+    border: 1px solid #ffffff;
+    display: block;
+    margin-left: 130px;
 }
-  
 
+footer .icons {
+    margin: 60px 20px 40px 130px;
+}
 
+footer .icons i {
+    padding: 10px;
+}
+
+.bloco2 div {
+    border: #ffffff 1px solid;
+    float: left;
+    margin-left: 550px;
+    
+    position:relative;
+    bottom: 400px;
+}
+
+.bloco3 div {
+    border: #000000 1px solid;
+    max-width: 200px;
+    float: left;    
+}
 
