@@ -21,7 +21,7 @@ i {
 .redes-sociais {
     text-align: right;
     padding: 10px;
-    padding-right: 170px;
+    padding-right: 250px;
     font-size: 11px;
     font-weight: 100;
 }
@@ -47,7 +47,7 @@ div nav a {
 nav {
     float: right;
     margin-top: 30px;
-    padding-right: 155px;
+    padding-right: 235px;
 }
 
 nav .ativo {
@@ -60,7 +60,7 @@ main {
     text-align: left;
     max-width: 750px;
     margin: auto;
-    margin-right: auto;
+    margin-right: 670px;
     font-size: 20px;
 }
 
@@ -163,17 +163,26 @@ span {
     color: #2648A1; 
 }
 
+main h2 {
+    color: #2648A1;
+    margin-top: 0;
+}
+
+.praias {
+    padding-left: 150px;
+}
+
+.praias div {
+    display: inline-block;
+}
+
 .praias h2 {
     color: #2648A1;
     margin-top: 0;
 }
 
-.imagens-praias figure, h3, small {
+.praias figure, h3, small {
     margin-left: 200px;
-}
-
-.imagens-praias figure img {
-    display: inline-block;
 }
 
 .praias .cinza {
@@ -186,13 +195,41 @@ footer {
 }
 
 footer .footer {
+    color: #ffffff;
     text-align: left;
-    max-width: 750px;
     margin: auto;
-    margin-right: auto;
+    padding-top: 50px;
+    max-width: 950px;
 }
 
-footer .footer i {
+.footer .bloco1 img {
+    margin-bottom: 50px;
+    margin-left: -15px;
+}
+
+.footer i {
     color: #ffffff;
     float: left;
+}
+
+.footer .bloco1 div {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.footer .bloco2 {
+    float: right;
+    padding-top: 20px;
+}
+
+.footer .bloco3 {
+    float: right;
+}
+
+.footer .bloco4 {
+    float: right;
+}
+
+.footer .bloco2 {
+    float: right;
 }
