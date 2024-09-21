@@ -1,5 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
+}
+
+main {
     max-width: 1200px;
     margin-left:auto ;
     margin-right: auto;
@@ -61,4 +64,42 @@ figure {
     font-size: 16px;
     font-weight: bold;
 }
+
+/* Segunda parte do Site - Inicial.html */
+
+header .cabecalho {
+    background-color: #0C2A43;
+    color: #ffff;
+    height: 80px;
+}
+
+header img {
+    float: left;
+    padding: 30px;
+}
+
+header .cabecalho h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+}
+
+header .cabecalho i {
+    color:#ffff;
+}
+
+header .cabecalho a {
+    text-decoration: none;
+    color: #ffff;
+    position:absolute;
+    right: 3%;
+    top: 40px;
+}
+
+header nav {
+    background-color: #ffff;
+    color: black;
+} 
+
+
 
