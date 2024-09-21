@@ -1,11 +1,14 @@
 body {
     font-family: "Lato", sans-serif;
     max-width: 1200px;
+    margin-left:auto ;
+    margin-right: auto;
 }
 
 .logo {
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 150px;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
 }
 
 .logo img {
@@ -14,9 +17,11 @@ body {
     width: 65px;
 }
 
-.logo h2 {
+.logo h1 {
     margin-bottom: 7px;
     margin-top: auto;
+    color:#0C2A43;
+    font-size: 30px;
 }
 
 .logo div {
@@ -24,10 +29,36 @@ body {
     margin-left: 70px;
 }
 
-.right {
-    bottom: 100px;
-    float: right;
-    padding-left: 550px;
-    position: absolute;
+figure {
+    position:absolute;
+    right: 200px;
+    top: 150px;
+}
+
+.login .welcome {
+    color: #0C2A43;
+    margin-top: 120px;
+}
+
+.login .welcome h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.welcome p {
+    margin-top: 10px;
+    line-height: 23px;
+}
+
+.welcome button {
+    margin-top:20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #12B76A;
+    width: 190px;
+    height: 45px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
