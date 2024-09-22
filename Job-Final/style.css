@@ -6,7 +6,6 @@ body {
 
 main {
     max-width: 1200px;
-    margin-left: 200px;
 }
 
 .logo {
@@ -33,7 +32,7 @@ main {
     margin-left: 70px;
 }
 
-figure {
+.ilustracao {
     position:absolute;
     right: 200px;
     top: 150px;
@@ -69,57 +68,82 @@ figure {
 /* Segunda parte do Site - Inicial.html */
 
 header .cabecalho {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #0C2A43;
-    color: #ffff;
-    height: 80px;
+    color: #FFFFFF;
+    height: 60px;
 }
 
-header img {
+header .cabecalho figure {
     float: left;
-    padding: 30px;
-    margin-left: 170px;
+    margin: 20px 15px 0 100px;
 }
 
 header .cabecalho h1 {
     margin: 0;
-    padding: 30px;
-    margin-left: 170px;
+    padding-top: 20px;
     font-size: 20px;
 }
 
 header .cabecalho i {
-    color:#ffff;
+    color:#ffffff;
 }
 
-header .cabecalho a {
+header .cabecalho div {
     text-decoration: none;
-    color: #ffff;
     position:absolute;
-    right: 3%;
-    top: 40px;
+    right: 8%;
+    top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 header nav {
-    background-color: #ffff;
-    color: black;
-} 
-
-nav ul {
-    margin-top: 0;
+    background-color: #FFFFFF;
+    height: 60px;
 }
 
-main .bloco-1 {
+header .cabecalho li {
+    color: black;
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+} 
+
+header .cabecalho li a, 
+header .cabecalho li a i {
+    color: #0C2A43;
+}
+
+header .cabecalho ul {
+    margin-left: 40px;
+    color:#0C2A43;
+}
+
+header .cabecalho .verde {
+    color: #12B76A;
+}
+
+header .cabecalho .button {
+    position: absolute;
+    right: 180px;
+    border: 1px solid #54595dc6;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .container {
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin-left: 0;
     margin-top: 150px;
     width: 600px;
 }
 
-main .bloco-2 {
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    float: right;
-    margin-left: 100px;
-    width: 600px;
-}
