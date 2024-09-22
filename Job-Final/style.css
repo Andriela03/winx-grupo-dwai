@@ -11,7 +11,7 @@ main {
 .logo {
     padding-top: 150px;
     font-size: 14px;
-    color: rgb(44, 44, 44);
+    color: #656D77;
 }
 
 .logo img {
@@ -131,13 +131,19 @@ header .cabecalho .verde {
 
 header .cabecalho .button {
     position: absolute;
-    right: 180px;
-    border: 1px solid #54595dc6;
-    width: 100px;
-    height: 30px;
-    border-radius: 3px;
+    right: 120px;
+    top: 50px;
+    border: 1px solid #656D77;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+header .cabecalho .sair {
     font-weight: bold;
-    text-align: center;
+    position: absolute;
+    left: 35px;
+    top: 10px;
 }
 
 main .bloco-1 {
@@ -146,6 +152,16 @@ main .bloco-1 {
     margin-left: 100px;
     margin-top: 150px;
     width: 600px;
+}
+
+main .bloco-2 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    bottom: 600px;
+    margin-left: 800px;
+    margin-top: 266px;
+    position: relative;
+    width: 400px;
 }
 
 .aulas h1 {
@@ -159,6 +175,14 @@ main .bloco-1 {
 
 .aulas h2 {
     padding-top: 16px;
+    color: #0C2A43;
+}
+
+.aulas h3 {
+    font-size: 14px;
+    padding-top: 5px;
+    color: #656D77;
+    font-weight: normal;
 }
 
 .aulas h2,
@@ -167,13 +191,4 @@ main .bloco-1 {
     width: 400px;
 }
 
-main .bloco-2 {
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    bottom: 600px;
-    margin-left: 800px;
-    margin-top: 266px;
-    position: relative;
-    width: 400px;
-}
 
