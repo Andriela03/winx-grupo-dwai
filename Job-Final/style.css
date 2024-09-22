@@ -92,7 +92,7 @@ header .cabecalho i {
 
 header .cabecalho div {
     text-decoration: none;
-    position:absolute;
+    position: absolute;
     right: 8%;
     top: 25px;
 }
@@ -111,7 +111,7 @@ header .cabecalho li {
     color: black;
     float: left;
     list-style: none;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 20px;
 } 
 
@@ -140,10 +140,40 @@ header .cabecalho .button {
     text-align: center;
 }
 
-main .container {
+main .bloco-1 {
     background-color: #FFFFFF;
     border-radius: 20px;
+    margin-left: 100px;
     margin-top: 150px;
     width: 600px;
+}
+
+.aulas h1 {
+    color: #12B76A;
+    float: left;
+    font-size: 100px; 
+    margin-left: 30px;
+    margin-top: 0;
+    width: 80px;
+}
+
+.aulas h2 {
+    padding-top: 16px;
+}
+
+.aulas h2,
+.aulas h3 {
+    margin: 0;
+    width: 400px;
+}
+
+main .bloco-2 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    bottom: 600px;
+    margin-left: 800px;
+    margin-top: 266px;
+    position: relative;
+    width: 400px;
 }
 
