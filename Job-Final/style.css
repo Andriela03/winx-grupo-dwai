@@ -142,6 +142,7 @@ header .cabecalho .button {
 
 .container {
     max-width: 1200px;
+    max-height: 680px;
 }
 
 main .bloco-1 {
