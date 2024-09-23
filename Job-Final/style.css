@@ -4,8 +4,10 @@ body {
     margin: 0;
 }
 
-main {
+main .login {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -28,8 +30,8 @@ main {
 }
 
 .logo div {
-    max-width: 200px;
-    margin-left: auto;
+    max-width: 250px;
+    margin-left:10px;
 }
 
 .ilustracao {
@@ -139,7 +141,7 @@ header .cabecalho .button {
 }
 
 .container {
-    max-height: 690px;
+    max-width: 1200px;
 }
 
 main .bloco-1 {
@@ -208,6 +210,7 @@ main .bloco-1 {
 .data-2 .fa-angle-up:before {
     margin-left: 75px;
 }
+
 .data-3 .fa-angle-up:before {
     margin-left: 92px;
 }
