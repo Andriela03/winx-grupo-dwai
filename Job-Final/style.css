@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: Inter;
     background-color: #f5f5f5;
     margin: 0;
 }
@@ -205,15 +205,15 @@ main .bloco-1 {
 }
 
 .data-1 .fa-angle-up:before {
-    margin-left: 95px;
+    margin-left: 140px;
 }
 
 .data-2 .fa-angle-up:before {
-    margin-left: 75px;
+    margin-left: 126px;
 }
 
 .data-3 .fa-angle-up:before {
-    margin-left: 92px;
+    margin-left: 140px;
 }
 
 .bloco-1 .datas .data-2,
