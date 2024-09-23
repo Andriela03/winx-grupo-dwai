@@ -127,23 +127,15 @@ header .cabecalho ul {
 
 header .cabecalho .verde {
     color: #12B76A;
+    font-weight: bold;
 }
 
 header .cabecalho .button {
-    position: absolute;
-    right: 120px;
-    top: 50px;
-    border: 1px solid #656D77;
-    width: 120px;
-    height: 40px;
+    border: 1px solid #656d777e;
     border-radius: 5px;
-}
-
-header .cabecalho .sair {
+    margin-left: 1200px;
+    padding: 10px 35px;
     font-weight: bold;
-    position: absolute;
-    left: 35px;
-    top: 10px;
 }
 
 .container {
@@ -154,7 +146,7 @@ main .bloco-1 {
     background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 5px 10px 30px 10px #979a9e;
-    margin-left: 150px;
+    margin-left: 30%;
     margin-top: 150px;
     width: 600px;
 }
@@ -191,28 +183,38 @@ main .bloco-1 {
     padding-top: 50px;
 }
 
-.cinza {
-    background-color: #f5f5f5;
+.bloco-1 .baesse {
+    border-top: 1px solid #f3dfdf;
+    border-bottom: 1px solid #f3dfdf;
+    background-color: #F1F1F1;
     height: 70px; 
     padding-top: 10px;
+    padding-left: 25px;
+    font-size: 14px;
 }
 
-.bloco-1 .cinza {
-    padding-left: 30px;
+.cinza {
+    color: #656D77;
 }
 
-.bloco-1 .datas p {
-    margin-bottom: 35px;
-    margin-top: 35px;
-    padding-left: 40px;
+.bloco-1 .datas .data-1 {
+    margin: 30px 40px;
 }
 
-.bloco-1 p i {
-    padding-right: 15px;
+.data-1 .fa-angle-up:before {
+    margin-left: 95px;
 }
 
-.bloco-1 p .fa-angle-up {
-    padding-left: 70px;
+.data-2 .fa-angle-up:before {
+    margin-left: 75px;
+}
+.data-3 .fa-angle-up:before {
+    margin-left: 92px;
+}
+
+.bloco-1 .datas .data-2,
+.bloco-1 .datas .data-3 {
+    margin: 40px;
 }
 
 .bloco-1 .cinza .resp {
@@ -229,12 +231,20 @@ main .bloco-1 {
     position: relative;
 }
 
-.bloco-1 .qaulas {
+.bloco-1 .rodape-bloco1 p {
     color: #979a9e;
     font-size: small;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-top: 35px;
+}
+
+.bloco-1 .rodape-bloco1 {
+    background-color: #F1F1F1;
+    border-top: 1px solid #f3dfdf;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    padding-top:10px;
 }
 
 .bloco-1 .button-2 {
@@ -256,12 +266,11 @@ main .bloco-1 {
 main .bloco-2 {
     background-color: #FFFFFF;
     border-radius: 5px;
-    bottom: 771px;
+    position: relative;
+    bottom: 560px;
     box-shadow: 5px 10px 30px 10px #979a9e;
     height: 300px;
-    margin-left: 800px;
-    margin-top: 266px;
-    position: relative;
+    left: 85%;
     width: 450px;
 }
 
@@ -269,6 +278,8 @@ main .bloco-2 {
     font-weight: 500;
     padding-top: 20px;
     padding-left: 40px;
+    color: #0C2A43;
+    font-size: 25px;
 }
 
 .bloco-2 p {
@@ -278,6 +289,7 @@ main .bloco-2 {
 .bloco-2 .verde {
     color: #12B76A;
     margin-top: 20px;
+    font-size: 16px;
 }
 
 .bloco-2 .verde i {
@@ -291,17 +303,16 @@ main .bloco-2 {
 }
 
 .bloco-2 .text {
-    color: #656D77;
-    max-width: 370px;
+    max-width: 330px;
     margin-left: 40px;
+    font-size: 14px;
 }
 
-.bloco-2 .prazo {
-    color: #656D77;
+.bloco-2 p {
+    font-size: 14px;
 }
 
 .bloco-2 .button-3 {
-    position: relative;
     margin-top: 50px;
 }
 
@@ -310,7 +321,12 @@ main .bloco-2 {
     border-radius: 5px;
     color: #12B76A;
     margin-left: 300px;
-    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    padding: 10px 10px;    
+}
+
+footer section {
+    margin-left: 215px;
 }
 
 footer p {
